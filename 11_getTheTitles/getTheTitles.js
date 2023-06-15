@@ -1,5 +1,7 @@
 const getTheTitles = function(arr) {
-    return arr.map((x) => x["title"]);
+    let res = [];
+    for (x of arr) res.push(x["title"]);
+    return res;
 };
 
 // Do not edit below this line
